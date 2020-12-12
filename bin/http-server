@@ -21,7 +21,7 @@ if (argv.h || argv.help) {
     '  -p --port    Port to use [8080]',
     '  -a           Address to use [0.0.0.0]',
     '  -d           Show directory listings [true]',
-    '  -i           Display autoIndex [true]',
+    '  -i=true      Display autoIndex [false]',
     '  -g --gzip    Serve gzip files when possible [false]',
     '  -b --brotli  Serve brotli files when possible [false]',
     '               If both brotli and gzip are enabled, brotli takes precedence',

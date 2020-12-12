@@ -147,3 +147,12 @@ $ node bin/http-server
 
 You should see the turtle image in the screenshot above hosted at that URL. See
 the `./public` folder for demo content.
+
+
+```
+todo: 
+  指定文件格式映射
+    --type=aa:zz 
+    --type=aa-bb:zz 
+    --type=*:zz 
+```
