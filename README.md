@@ -88,6 +88,8 @@ Using `npx` you can run the script without installing it first:
 
 `-v` or `--version` Print the version and exit.
 
+`--txt`  show unrecognized file in browser with .txt file type.
+
 ## Magic Files
 
 - `index.html` will be served as the default file to any directory requests.
