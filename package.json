@@ -1,17 +1,18 @@
 {
-  "name": "http-server",
-  "version": "0.12.3",
-  "description": "A simple zero-configuration command-line http server",
+  "name": "http-server-fork",
+  "version": "0.0.1",
+  "description": "fork from http-server npm module",
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/http-party/http-server.git"
+    "url": "https://github.com/justfn/http-server.git"
   },
   "keywords": [
     "cli",
     "command",
     "http",
-    "server"
+    "server",
+    "http-server"
   ],
   "scripts": {
     "start": "node ./bin/http-server",
@@ -27,59 +28,7 @@
   "engines": {
     "node": ">=6"
   },
-  "contributors": [
-    {
-      "name": "Charlie Robbins",
-      "email": "charlie.robbins@gmail.com"
-    },
-    {
-      "name": "Marak Squires",
-      "email": "marak.squires@gmail.com"
-    },
-    {
-      "name": "Charlie McConnell",
-      "email": "charlie@charlieistheman.com"
-    },
-    {
-      "name": "Joshua Holbrook",
-      "email": "josh.holbrook@gmail.com"
-    },
-    {
-      "name": "Maciej Małecki",
-      "email": "maciej.malecki@notimplemented.org"
-    },
-    {
-      "name": "Matthew Bergman",
-      "email": "mzbphoto@gmail.com"
-    },
-    {
-      "name": "brad dunbar",
-      "email": "dunbarb2@gmail.com"
-    },
-    {
-      "name": "Dominic Tarr"
-    },
-    {
-      "name": "Travis Person",
-      "email": "travis.person@gmail.com"
-    },
-    {
-      "name": "Jinkwon Lee",
-      "email": "master@bdyne.net"
-    },
-    {
-      "name": "BigBlueHat",
-      "email": "byoung@bigbluehat.com"
-    },
-    {
-      "name": "Daniel Dalton",
-      "email": "daltond2@hawkmail.newpaltz.edu"
-    },
-    {
-      "name": "Jade Michael Thornton",
-      "email": "jade@jmthornton.net"
-    }
-  ],
+  "contributors": [ ],
   "dependencies": {
     "basic-auth": "^1.0.3",
     "colors": "^1.4.0",
