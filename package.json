@@ -1,6 +1,6 @@
 {
   "name": "http-server-fork",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "fork from http-server npm module",
   "main": "./lib/http-server",
   "repository": {
@@ -52,7 +52,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "http-server": "./bin/http-server",
-    "hs": "./bin/http-server"
+    "http-server-fork": "./bin/http-server",
+    "hsf": "./bin/http-server"
   }
 }
