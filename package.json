@@ -1,6 +1,6 @@
 {
   "name": "http-server-fork",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "fork from http-server npm module",
   "main": "./lib/http-server",
   "repository": {
@@ -24,7 +24,7 @@
     "bin",
     "doc"
   ],
-  "man": "./doc/http-server.1",
+  "man": "./doc/http-server-fork.1",
   "engines": {
     "node": ">=6"
   },
